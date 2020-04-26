@@ -1,4 +1,7 @@
 # docker
+
+docker run --env MODE=standalone --name nacos -d -p 8848:8848 nacos/nacos-server
+
 # Nacos
  docker run --name nacos-standalone -e MODE=standalone -p 8848:8848 -d nacos/nacos-server:latest
 
