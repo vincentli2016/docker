@@ -1,3 +1,6 @@
+# redis
+docker run -itd --name redis -p 6379:6379 redis
+
 # docker
 
 docker run --env MODE=standalone --name nacos -d -p 8848:8848 nacos/nacos-server
